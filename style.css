@@ -165,3 +165,91 @@ a {
 @media (max-width: 767.98px) {
     /* ... */
 }
+
+
+#logo{
+    height: 18px;
+}
+
+main{
+    margin-top: 30px;
+  }
+
+#main-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#main-nav ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+
+#main-nav li{
+    padding: 16px 24px;
+}
+
+#main-nav li a{
+    text-decoration: none;
+    border-top: 3px transparent solid;
+    padding-top: 16px;
+}
+
+#main-nav li a:hover {
+    border-color: var(--main-color);
+  }
+
+#main-nav li a.current {
+    border-color: var(--main-color);
+    color: var(--main-color);
+  }
+
+.fa-solid.fa-location-dot{
+    color: black;
+    padding: 15px;
+    width: 14px;
+    height: 18px;
+    
+}
+
+.input-rechercher{
+    display: flex;
+    align-items: center;
+    width: 377px;
+    height: 49px;
+    border-radius: 15px;
+    background-color: #F2F2F2;
+    margin-bottom: 30px;
+    margin-top: 40px;
+    
+}
+
+.input-rechercher input[type='text']{
+    border: none;
+    background-color:white;
+    padding: 15px;
+    align-items: center;
+    font-weight: bold;
+    color: black;
+    font-size: 18px;
+    text-align: center;
+    width: 170px;
+    
+}
+
+.input-rechercher button{
+    width: 132px;
+    height: 49px;
+    background-color: #0065FC;
+    color: white;
+    font-weight: bold;
+    border-radius: 0 15px 15px 0;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+   
+    
+}
