@@ -229,18 +229,19 @@ main{
 .input-rechercher input[type='text']{
     border: none;
     background-color:white;
-    padding: 15px;
+    padding: 12px;
     align-items: center;
     font-weight: bold;
     color: black;
     font-size: 18px;
     text-align: center;
     width: 170px;
+    border: 2px solid var(--main-bg-color);
     
 }
 
 .input-rechercher button{
-    width: 132px;
+    width: 135px;
     height: 49px;
     background-color: #0065FC;
     color: white;
@@ -251,5 +252,53 @@ main{
     cursor: pointer;
     outline: none;
    
+}
+
+.filter{
+    margin-top: 20px;
+}
+
+.filter-list{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    justify-content: flex-start;
+    padding: 0;
+    
     
 }
+
+.filter-title{
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 1em;
+    width: 54px;
+    height: 21px;
+    
+}
+
+.filter .filter-element{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    border: 2px solid var(--main-bg-color);
+    font-weight: bold;
+    border-radius: 50px;
+    opacity: 1;
+    margin-right: 10px;
+    padding: 4px 19px 4px 19px;
+    width: 130px;
+    height: 40px;
+}
+
+.filter-element:hover {
+    background-color: #deebff;
+}
+
+
+
+
+
+
